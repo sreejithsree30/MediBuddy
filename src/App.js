@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import LabTest from './components/LabTest'
+import HealthCheckup from './components/HeathCheckup'
+import BookingCard from './components/BookingCard'
+import BookingSlot from './components/BookingSlot'
+import LabCard from './components/LabCard'
+import TrustedSection from './components/TrustedSection'
+import HealthPackages from './components/HealthPackages'
+import SafeLabTest from './components/SafeLabTest'
+import FAQ from './components/FAQ'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LabTest />
+      <HealthCheckup />
+      <BookingCard />
+      <BookingSlot />
+      <LabCard />
+      <TrustedSection />
+      <HealthPackages />
+      <SafeLabTest />
+      <FAQ/>
     </div>
-  );
+  )
 }
 
-export default App;
+
+export default App

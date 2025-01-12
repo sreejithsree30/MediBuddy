@@ -1,0 +1,52 @@
+
+.safe-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+
+  .safe-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .safe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+
+  .safe-card {
+    background-color: #f9f9ff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .safe-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .safe-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .safe-card p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+  }
+  

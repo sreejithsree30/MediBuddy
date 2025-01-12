@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+Objective:
+The purpose of this assignment is to develop a fully responsive web page based on a Figma design provided. The main objectives are to ensure that the web page translates the design into an accurately implemented interface, adheres to best coding practices and standards, and demonstrates responsiveness and efficiency. The expected learning outcomes include mastering the process of converting design mockups to functioning web pages, enhancing familiarity with API integration, and improving coding and deployment skills.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Step-by-Step Instructions:
 
-## Available Scripts
+1. Project Setup and Initialization:
 
-In the project directory, you can run:
+Project Directory Setup:
 
-### `npm start`
+Create a directory for your project on your local machine.
+Navigate to the project directory in your terminal.
+Initializing the Project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Initialize a new Git repository using git init.
+Create an initial README file detailing the project.
+Installing Dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Initialize package management with npm init or yarn init.
+Install necessary dependencies such as React, Tailwind CSS, or any other relevant libraries.
+2. Development Process:
 
-### `npm test`
+Accessing the Figma Design:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Familiarize yourself with the design, noting down key components and layout structures.
+Fetching Page Content:
 
-### `npm run build`
+Integrate with the provided API to fetch page content.
+https://677f757b0476123f76a68a42.mockapi.io/api/labs/v1/page_config
+Structure your API calls to retrieve data in the format specified, particularly utilizing the page_config array.
+Setting Up Project Structure:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Organize your files into components, assets, styles, and services directories.
+Establish base components for reusable elements like headers, footers, and any common UI elements in the design.
+Implementing Components:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow the Figma design to create unique components for each section.
+Use the data from the API to populate components dynamically.
+Ensure that each component is developed in alignment with the design specifications and adheres to coding standards.
+Dynamic Rendering:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Implement logic for rendering the components based on the 'id' and 'props' from the API data.
+Special considerations: Render "Featured Health Check-up Packages" and "Book Lab Tests" components conditionally based on the categories and package filtering logic.
+3. Styling and Design:
 
-### `npm run eject`
+CSS Frameworks:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Optionally, integrate CSS frameworks like Tailwind CSS or Bootstrap for streamlined styling.
+Define a base style sheet if not using a CSS framework, ensuring it aligns with the design.
+Responsive Design:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ensure all components are responsive and adapt to various screen sizes.
+Use media queries and responsive units (e.g., %, vw, vh) to achieve the desired responsiveness.
+Design Adjustments:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Compare your web page at various stages with the Figma design to ensure accuracy.
+Adjust styles and layouts to match the design precisely.
+4. Deployment:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Building for Production:
 
-## Learn More
+Configure your build process to optimize for performance.
+Adjust configurations for production deployment.
+Hosting:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Select an appropriate hosting platform (e.g., Vercel, Netlify).
+Deploy the project and configure environment settings as required by the hosting platform.
+Generating a Hosted Link:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Once deployed, obtain the hosted link to share and review.
+Submission Guidelines:
 
-### Code Splitting
+Source Code:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Upload all project files to a GitHub repository.
+Ensure the repository is well-maintained with clear commit messages and detailed documentation.
+Hosted Link:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Provide the link to the deployed version of your project.

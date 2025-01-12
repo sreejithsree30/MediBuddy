@@ -1,0 +1,104 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .location h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .location p {
+    margin: 0;
+    color: gray;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .option {
+    flex: 1 1 calc(33.333% - 20px);
+    text-align: center;
+  }
+  
+  .option img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .option p {
+    margin-top: 10px;
+  }
+
+  .lab-set-cart{
+    display: flex;
+    justify-content:space-between;
+    background-color: #f8d7da;
+    border-radius: 40px;
+  }
+  
+  .banner {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .banner span{
+    font-weight: 900;
+    font-size:16px;
+    
+  }
+  
+  .banner p {
+    margin: 5px 0;
+  }
+  
+  .banner button {
+    color:#922b74;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-weight: 800;
+    text-align: right;
+  }
+
+
+
+  .girl-image{
+    height: 200px;
+  }
+  
+
+  
